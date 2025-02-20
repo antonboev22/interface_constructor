@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li2SO4
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   8.38784496
+_cell_length_b   4.92078882
+_cell_length_c   8.20029857
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   107.80461619
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Li2SO4
+_chemical_formula_sum   'Li8 S4 O16'
+_cell_volume   322.25489529
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Li+  1.0
+  S6+  6.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li+  Li0  4  0.12892390  0.57470062  0.43851847  1
+  Li+  Li1  4  0.37873345  0.57021555  0.19834093  1
+  S6+  S2  4  0.25148713  0.06446408  0.31314696  1
+  O2-  O3  4  0.10462019  0.00778211  0.16398614  1
+  O2-  O4  4  0.22735609  0.56447930  0.96594638  1
+  O2-  O5  4  0.27462597  0.14048820  0.84142813  1
+  O2-  O6  4  0.39990754  0.55281201  0.77799038  1
