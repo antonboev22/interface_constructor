@@ -1,0 +1,147 @@
+material_id,crystal_system,space_group,theoretical,reduction_limit,oxidation_limit,reduction_reaction,oxidation_reaction,formula_pretty,chemsys,nsites,energy_above_hull,band_gap,is_stable
+mp-1211494,Monoclinic,P2_1/c,True,0.28,6.13,4 KLiHoF5 -> 4 KLiHoF5,4 KLiHoF5 -> 2 KHo2F7 + 2 KF3 + 4 Li,KLiHoF5,F-Ho-K-Li,32,0.0,7.38,True
+mp-1960,Cubic,Fm-3m,False,0.0,2.88,Li2O -> Li2O,Li2O -> 0.5 Li2O2 + Li,Li2O,Li-O,3,0.0,4.9,True
+mp-7137,Orthorhombic,Pnma,False,0.0,2.96,4 LiTbO2 -> 4 LiTbO2,4 LiTbO2 -> Li2O2 + 2 Tb2O3 + 2 Li,LiTbO2,Li-O-Tb,16,0.0,4.55,True
+mp-10251,Monoclinic,P2_1/c,False,0.0,2.98,4 LiDyO2 -> 4 LiDyO2,4 LiDyO2 -> Li2O2 + 2 Dy2O3 + 2 Li,LiDyO2,Dy-Li-O,16,0.01,3.96,False
+mp-976726,Orthorhombic,Pnma,False,0.0,2.98,4 LiDyO2 -> 4 LiDyO2,4 LiDyO2 -> Li2O2 + 2 Dy2O3 + 2 Li,LiDyO2,Dy-Li-O,16,0.0,4.56,True
+mp-30228,Tetragonal,I4_1/a,False,0.0,0.25,2 Li4HN -> 2 Li4HN,2 Li4HN -> 2 Li2HN + 4 Li,Li4HN,H-Li-N,12,0.0,2.07,True
+mp-1190809,Tetragonal,I4_1md,False,0.0,0.53,2 Li8TeN2 -> 2 Li8TeN2,2 Li8TeN2 -> 2 Li2Te + 1.333 LiN3 + 10.67 Li,Li8TeN2,Li-N-Te,22,0.0,2.24,True
+mp-8926,Tetragonal,P4_2/mnm,False,0.0,0.87,2 Li3BN2 -> 2 Li3BN2,2 Li3BN2 -> 2 BN + 0.6667 LiN3 + 5.333 Li,Li3BN2,B-Li-N,12,0.0,3.45,False
+mp-23364,Tetragonal,P4/nmm,False,0.0,4.3,2 CsLiCl2 -> 2 CsLiCl2,2 CsLiCl2 -> Cl2 + 2 CsCl + 2 Li,CsLiCl2,Cl-Cs-Li,8,0.01,5.03,False
+mp-568273,Hexagonal,P6_3/mmc,False,0.0,2.84,2 LiI -> 2 LiI,2 LiI -> 2 I + 2 Li,LiI,I-Li,4,0.03,4.23,False
+mp-29463,Monoclinic,P2_1/c,False,0.0,0.87,4 LiBeN -> 4 LiBeN,4 LiBeN -> 1.333 Be3N2 + 0.4444 LiN3 + 3.556 Li,LiBeN,Be-Li-N,12,0.0,2.08,True
+mp-1147554,Tetragonal,P4/nmm,True,0.0,2.0,2 LiLaSO -> La2SO2 + Li2S,2 LiLaSO -> 2 LaSO + 2 Li,LiLaSO,La-Li-O-S,8,0.01,3.17,False
+mp-8001,Trigonal,R-3m,False,0.17,3.48,LiAlO2 -> LiAlO2,LiAlO2 -> 0.09091 Al11O18 + 0.04545 LiO8 + 0.9545 Li,LiAlO2,Al-Li-O,4,0.0,6.12,True
+mp-754237,Tetragonal,I4_1/amd,True,0.0,3.04,2 LiTmO2 -> 2 LiTmO2,2 LiTmO2 -> 0.5 Li2O2 + Tm2O3 + Li,LiTmO2,Li-O-Tm,8,0.0,4.32,False
+mp-21332,Orthorhombic,Pnma,False,0.0,2.93,4 LiGdO2 -> 4 LiGdO2,4 LiGdO2 -> Li2O2 + 2 Gd2O3 + 2 Li,LiGdO2,Gd-Li-O,16,0.0,3.28,True
+mp-1198740,Tetragonal,I4_1/acd,False,0.05,2.88,4 Li7Nd3Zr2O12 -> 4 Li6Zr2O7 + 2 Li2O + 6 Nd2O3,4 Li7Nd3Zr2O12 -> 4 Li6Zr2O7 + Li2O2 + 6 Nd2O3 + 2 Li,Li7Nd3Zr2O12,Li-Nd-O-Zr,96,0.01,4.27,False
+mp-1020108,Monoclinic,C2/m,False,0.15,0.83,2 LiCaMgSiN3 -> 0.2222 LiCa3Si2N5 + 0.4444 Li4Ca2Mg(SiN3)2 + 0.4444 CaMg3SiN4 + 0.2222 MgSiN2,2 LiCaMgSiN3 -> 0.5 LiCa3Si2N5 + 0.5 CaMg3SiN4 + 0.5 MgSiN2 + 0.1667 LiN3 + 1.333 Li,LiCaMgSiN3,Ca-Li-Mg-N-Si,14,0.0,2.84,False
+mp-1036537,Orthorhombic,Pmmm,True,0.17,3.48,LiMg14AlO16 -> 14 MgO + LiAlO2,LiMg14AlO16 -> 0.04545 LiO8 + 0.09091 Al11O18 + 14 MgO + 0.9545 Li,LiMg14AlO16,Al-Li-Mg-O,32,0.02,4.29,False
+mp-1185319,Hexagonal,P6_3mc,True,0.0,4.27,2 LiCl -> 2 LiCl,2 LiCl -> Cl2 + 2 Li,LiCl,Cl-Li,4,0.0,5.74,False
+mp-571666,Orthorhombic,Cmcm,True,0.0,4.27,2 CsLi3Cl4 -> 2 CsLiCl2 + 4 LiCl,2 CsLi3Cl4 -> 2 CsLiCl2 + 2 Cl2 + 4 Li,CsLi3Cl4,Cl-Cs-Li,16,0.03,5.27,False
+mp-27275,Monoclinic,P2_1/c,False,0.29,3.43,4 Li3BO3 -> 4 Li3BO3,4 Li3BO3 -> Li6B4O9 + 0.375 LiO8 + 5.625 Li,Li3BO3,B-Li-O,28,0.0,5.15,True
+mp-28592,Tetragonal,I4/mmm,False,0.0,2.88,Li7Br3O2 -> 2 Li2O + 3 LiBr,Li7Br3O2 -> Li2O2 + 3 LiBr + 2 Li,Li7Br3O2,Br-Li-O,12,0.03,4.25,False
+mp-1040126,Tetragonal,P4/mmm,True,0.07,2.88,LiLaMg30O32 -> 0.5 Li2O + 0.5 La2O3 + 30 MgO,LiLaMg30O32 -> 0.25 Li2O2 + 0.5 La2O3 + 30 MgO + 0.5 Li,LiLaMg30O32,La-Li-Mg-O,64,0.05,4.0,False
+mp-12645,Monoclinic,P2_1/c,False,0.0,2.96,4 LiHoO2 -> 4 LiHoO2,4 LiHoO2 -> Li2O2 + 2 Ho2O3 + 2 Li,LiHoO2,Ho-Li-O,16,0.0,4.02,True
+mp-1211459,Monoclinic,P2_1/c,True,0.28,6.1,4 KLiErF5 -> 4 KErF4 + 4 LiF,4 KLiErF5 -> 2 KEr2F7 + 2 KF2 + 2 LiF + 2 Li,KLiErF5,Er-F-K-Li,32,0.0,7.47,False
+mp-10970,Monoclinic,P2_1/c,False,0.0,2.99,4 LiErO2 -> 4 LiErO2,4 LiErO2 -> Li2O2 + 2 Er2O3 + 2 Li,LiErO2,Er-Li-O,16,0.0,4.11,True
+mp-755225,Trigonal,R-3,True,0.05,2.88,Li8ZrO6 -> 2.5 Li2O + 0.5 Li6Zr2O7,Li8ZrO6 -> 0.5 Li6Zr2O7 + 1.25 Li2O2 + 2.5 Li,Li8ZrO6,Li-O-Zr,15,0.0,4.55,False
+mp-6799,Cubic,Im-3m,False,0.0,1.35,LiCa4(BN2)3 -> LiCa4(BN2)3,LiCa4(BN2)3 -> 0.0625 CaN6 + 1.313 Ca3(BN2)2 + 0.375 BN + Li,LiCa4(BN2)3,B-Ca-Li-N,14,0.0,2.19,True
+mp-1080005,Monoclinic,Cm,True,0.0,2.96,Cs3Li2Br5 -> 2 LiBr + 3 CsBr,Cs3Li2Br5 -> CsBr3 + 2 CsBr + 2 Li,Cs3Li2Br5,Br-Cs-Li,10,0.02,4.53,False
+mp-15960,Orthorhombic,Pbca,False,0.05,3.01,8 Li5AlO4 -> 8 Li5AlO4,8 Li5AlO4 -> 8 Li2O2 + 8 LiAlO2 + 16 Li,Li5AlO4,Al-Li-O,80,0.0,4.66,True
+mp-542435,Cubic,Ia-3,False,0.0,0.59,8 Li3ScN2 -> 8 Li3ScN2,8 Li3ScN2 -> 8 ScN + 2.667 LiN3 + 21.33 Li,Li3ScN2,Li-N-Sc,48,0.0,2.24,True
+mp-3887,Cubic,Ia-3,False,0.13,0.77,8 Li3GaN2 -> 8 Li3GaN2,8 Li3GaN2 -> 8 GaN + 2.667 LiN3 + 21.33 Li,Li3GaN2,Ga-Li-N,48,0.0,2.38,True
+mp-1020057,Monoclinic,P2_1/c,False,0.0,2.88,4 LiLaO2 -> 2 Li2O + 2 La2O3,4 LiLaO2 -> Li2O2 + 2 La2O3 + 2 Li,LiLaO2,La-Li-O,16,0.02,3.73,False
+mp-5914,Tetragonal,I4_1/amd,False,0.0,0.87,4 Li3BN2 -> 4 Li3BN2,4 Li3BN2 -> 4 BN + 1.333 LiN3 + 10.67 Li,Li3BN2,B-Li-N,24,0.0,3.3,False
+mp-1211461,Monoclinic,P2_1/c,True,0.29,6.12,4 KLiDyF5 -> 4 KLiDyF5,4 KLiDyF5 -> 2 KDy2F7 + 2 KF2 + 2 LiF + 2 Li,KLiDyF5,Dy-F-K-Li,32,0.0,7.39,True
+mp-22905,Cubic,Fm-3m,False,0.0,4.27,LiCl -> LiCl,LiCl -> 0.5 Cl2 + Li,LiCl,Cl-Li,2,0.0,6.25,True
+mp-570948,Monoclinic,P2_1/c,False,0.21,0.98,4 LiCaGaN2 -> 4 LiCaGaN2,4 LiCaGaN2 -> Ca3(GaN2)2 + CaN2 + 2 GaN + 4 Li,LiCaGaN2,Ca-Ga-Li-N,20,0.0,2.13,True
+mp-699284,Orthorhombic,Imma,True,0.25,0.66,8 Li2HN -> 8 Li2HN,8 Li2HN -> 4 LiH2N + 1.333 LiN3 + 10.67 Li,Li2HN,H-Li-N,32,0.01,2.64,False
+mp-1020107,Tetragonal,I4_1/a,False,0.0,0.85,8 LiCaAl3N4 -> 8 LiCaAlN2 + 16 AlN,8 LiCaAl3N4 -> 2 Ca3Al3N5 + 2 CaN2 + 18 AlN + 8 Li,LiCaAl3N4,Al-Ca-Li-N,72,0.01,3.02,False
+mp-28549,Hexagonal,P6_3cm,False,0.22,2.93,2 Li8SiO6 -> 2 Li8SiO6,2 Li8SiO6 -> 2 Li2O2 + 2 Li4SiO4 + 4 Li,Li8SiO6,Li-O-Si,30,0.0,4.45,True
+mp-675488,Monoclinic,Cm,True,0.0,0.51,Li6I3N -> 0.5 Li7IN2 + 2.5 LiI,Li6I3N -> 3 LiI + 0.3333 LiN3 + 2.667 Li,Li6I3N,I-Li-N,10,0.01,2.36,False
+mp-23818,Cubic,Pm-3m,False,0.0,1.24,BaLiH3 -> BaLiH3,BaLiH3 -> 0.5 H2 + BaH2 + Li,BaLiH3,Ba-H-Li,5,0.0,2.21,True
+mp-1153,Cubic,Fm-3m,False,0.0,2.14,Li2S -> Li2S,Li2S -> 0.25 LiS4 + 1.75 Li,Li2S,Li-S,3,0.0,3.39,True
+mp-569055,Tetragonal,P-4m2,True,0.0,2.35,CsLi2I3 -> 2 LiI + CsI,CsLi2I3 -> CsI3 + 2 Li,CsLi2I3,Cs-I-Li,6,0.02,4.42,False
+mp-13944,Cubic,Ia-3,False,0.0,0.79,8 Li3AlN2 -> 8 Li3AlN2,8 Li3AlN2 -> 8 AlN + 2.667 LiN3 + 21.33 Li,Li3AlN2,Al-Li-N,48,0.0,2.94,True
+mp-22899,Cubic,Fm-3m,False,0.0,2.84,LiI -> LiI,LiI -> I + Li,LiI,I-Li,2,0.03,4.23,False
+mp-23703,Cubic,Fm-3m,False,0.0,0.99,LiH -> LiH,LiH -> 0.5 H2 + Li,LiH,H-Li,2,0.0,2.98,True
+mp-569117,Orthorhombic,Immm,True,0.0,4.27,CsLi2Cl3 -> CsLiCl2 + LiCl,CsLi2Cl3 -> CsLiCl2 + 0.5 Cl2 + Li,CsLi2Cl3,Cl-Cs-Li,6,0.01,5.24,False
+mp-1038227,Tetragonal,P4/mmm,True,0.17,3.48,LiMg30AlO32 -> 30 MgO + LiAlO2,LiMg30AlO32 -> 0.04545 LiO8 + 0.09091 Al11O18 + 30 MgO + 0.9545 Li,LiMg30AlO32,Al-Li-Mg-O,64,0.01,4.43,False
+mp-754162,Monoclinic,P2_1/c,True,0.0,2.93,4 LiGdO2 -> 4 LiGdO2,4 LiGdO2 -> Li2O2 + 2 Gd2O3 + 2 Li,LiGdO2,Gd-Li-O,16,0.01,2.8,False
+mp-780259,Tetragonal,P4_2/nmc,True,0.0,2.88,8 Li5LaO4 -> 20 Li2O + 4 La2O3,8 Li5LaO4 -> 10 Li2O2 + 4 La2O3 + 20 Li,Li5LaO4,La-Li-O,80,0.05,3.4,False
+mp-1181918,Monoclinic,C2/m,True,0.0,2.35,2 Cs3Li2I5 -> 4 LiI + 6 CsI,2 Cs3Li2I5 -> 2 CsI3 + 4 CsI + 4 Li,Cs3Li2I5,Cs-I-Li,20,0.02,3.74,False
+mp-1020031,Monoclinic,P2_1/c,False,0.0,0.85,4 LiCaAlN2 -> 4 LiCaAlN2,4 LiCaAlN2 -> Ca3Al3N5 + CaN2 + AlN + 4 Li,LiCaAlN2,Al-Ca-Li-N,20,0.0,2.78,True
+mp-1222355,Monoclinic,P2_1/c,True,0.0,2.88,4 LiNdO2 -> 2 Li2O + 2 Nd2O3,4 LiNdO2 -> Li2O2 + 2 Nd2O3 + 2 Li,LiNdO2,Li-Nd-O,16,0.01,3.66,False
+mp-1190687,Orthorhombic,Pbcn,False,0.0,4.27,4 CsLi2Cl3 -> 4 CsLiCl2 + 4 LiCl,4 CsLi2Cl3 -> 4 CsLiCl2 + 2 Cl2 + 4 Li,CsLi2Cl3,Cl-Cs-Li,24,0.0,5.33,True
+mp-35822,Triclinic,P1,True,0.26,3.36,2 Li4SiO4 -> 2 Li4SiO4,2 Li4SiO4 -> 2 Li2SiO3 + 0.25 LiO8 + 3.75 Li,Li4SiO4,Li-O-Si,18,0.03,5.09,False
+mp-4495,Tetragonal,P4/nmm,False,0.0,1.55,2 KLiTe -> 2 KLiTe,2 KLiTe -> 2 KTe + 2 Li,KLiTe,K-Li-Te,6,0.0,2.41,True
+mp-1184020,Monoclinic,Pm,True,0.0,2.35,2 CsLi3I4 -> 6 LiI + 2 CsI,2 CsLi3I4 -> 2 CsI3 + 2 LiI + 4 Li,CsLi3I4,Cs-I-Li,16,0.01,4.28,False
+mp-1189357,Orthorhombic,C222_1,True,0.0,2.96,2 Cs3LiBr4 -> 2 LiBr + 6 CsBr,2 Cs3LiBr4 -> CsBr3 + 5 CsBr + 2 Li,Cs3LiBr4,Br-Cs-Li,16,0.04,4.04,False
+mp-1079935,Trigonal,R-3c,True,0.0,0.99,2 LiCaH3 -> 2 CaH2 + 2 LiH,2 LiCaH3 -> 2 CaH2 + H2 + 2 Li,LiCaH3,Ca-H-Li,10,0.02,2.55,False
+mp-14712,Cubic,P-43n,False,0.01,0.93,8 Li7PN4 -> 8 Li7PN4,8 Li7PN4 -> 8 LiPN2 + 5.333 LiN3 + 42.67 Li,Li7PN4,Li-N-P,96,0.0,3.47,True
+mp-571390,Orthorhombic,Cmcm,True,0.0,4.3,2 Cs2LiCl3 -> 2 CsLiCl2 + 2 CsCl,2 Cs2LiCl3 -> Cl2 + 4 CsCl + 2 Li,Cs2LiCl3,Cl-Cs-Li,12,0.02,5.13,False
+mp-985585,Cubic,Pm-3m,True,0.0,2.87,Li3ClO -> Li2O + LiCl,Li3ClO -> 0.25 LiClO4 + 0.75 LiCl + 2 Li,Li3ClO,Cl-Li-O,5,0.03,4.68,False
+mp-1188344,Monoclinic,C2/c,False,0.0,4.3,4 CsLiCl2 -> 4 CsLiCl2,4 CsLiCl2 -> 2 Cl2 + 4 CsCl + 4 Li,CsLiCl2,Cl-Cs-Li,16,0.0,5.11,True
+mp-1222299,Tetragonal,I-4m2,True,0.19,0.94,LiMgBN2 -> LiMgBN2,LiMgBN2 -> 0.1111 LiN3 + 0.3333 Mg3N2 + BN + 0.8889 Li,LiMgBN2,B-Li-Mg-N,5,0.0,2.65,True
+mp-1020016,Monoclinic,C2/m,False,0.0,0.83,Li4Ca2Mg(SiN3)2 -> Li4Ca2Mg(SiN3)2,Li4Ca2Mg(SiN3)2 -> 0.625 LiCa3Si2N5 + 0.125 CaMg3SiN4 + 0.625 MgSiN2 + 0.375 LiN3 + 3 Li,Li4Ca2Mg(SiN3)2,Ca-Li-Mg-N-Si,15,0.0,3.05,True
+mp-23057,Tetragonal,P4/nmm,False,0.0,2.96,2 CsLiBr2 -> 2 LiBr + 2 CsBr,2 CsLiBr2 -> CsBr3 + CsBr + 2 Li,CsLiBr2,Br-Cs-Li,8,0.0,4.14,True
+mp-557964,Cubic,Pm-3m,False,0.0,0.48,Li9S3N -> Li3N + 3 Li2S,Li9S3N -> 3 Li2S + 0.3333 LiN3 + 2.667 Li,Li9S3N,Li-N-S,13,0.0,2.43,False
+mp-23259,Cubic,Fm-3m,False,0.0,3.67,LiBr -> LiBr,LiBr -> Br + Li,LiBr,Br-Li,2,0.01,4.92,False
+mp-2286,Cubic,Fm-3m,False,0.0,2.13,Li2Se -> Li2Se,Li2Se -> Se + 2 Li,Li2Se,Li-Se,3,0.0,2.97,True
+mp-8756,Tetragonal,P4/nmm,False,0.14,1.76,2 KLiSe -> 2 KLiSe,2 KLiSe -> 2 KSe + 2 Li,KLiSe,K-Li-Se,6,0.0,2.52,True
+mp-3427,Tetragonal,P4_12_12,False,0.17,3.48,4 LiAlO2 -> 4 LiAlO2,4 LiAlO2 -> 0.3636 Al11O18 + 0.1818 LiO8 + 3.818 Li,LiAlO2,Al-Li-O,16,0.01,4.59,False
+mp-2530,Cubic,Fm-3m,False,0.0,1.56,Li2Te -> Li2Te,Li2Te -> 0.3333 LiTe3 + 1.667 Li,Li2Te,Li-Te,3,0.0,2.49,True
+mp-37906,Cubic,F-43m,True,0.0,0.68,LiMgN -> LiMgN,LiMgN -> 0.3333 Mg3N2 + 0.1111 LiN3 + 0.8889 Li,LiMgN,Li-Mg-N,3,0.0,2.27,True
+mp-568365,Orthorhombic,Ibca,False,0.0,0.53,8 Li6Br3N -> 8 Li5Br2N + 8 LiBr,8 Li6Br3N -> 24 LiBr + 2.667 LiN3 + 21.33 Li,Li6Br3N,Br-Li-N,80,0.01,2.26,False
+mp-976280,Hexagonal,P6_3mc,True,0.0,3.67,2 LiBr -> 2 LiBr,2 LiBr -> 2 Br + 2 Li,LiBr,Br-Li,4,0.0,4.94,True
+mp-1080534,Monoclinic,C2/m,False,0.0,2.35,Cs2Li3I5 -> 3 LiI + 2 CsI,Cs2Li3I5 -> 1.5 CsI3 + 0.5 CsI + 3 Li,Cs2Li3I5,Cs-I-Li,10,0.01,3.86,False
+mp-5001,Monoclinic,P2_1/c,False,0.0,0.87,4 Li3BN2 -> 4 Li3BN2,4 Li3BN2 -> 4 BN + 1.333 LiN3 + 10.67 Li,Li3BN2,B-Li-N,24,0.0,3.21,True
+mp-1211435,Monoclinic,P2_1/c,True,0.29,6.12,4 KLiTbF5 -> 4 KLiTbF5,4 KLiTbF5 -> 2 KTb2F7 + 2 KF2 + 2 LiF + 2 Li,KLiTbF5,F-K-Li-Tb,32,0.0,7.39,True
+mp-1036528,Tetragonal,P4/mmm,True,0.17,3.48,LiMg14AlO16 -> 14 MgO + LiAlO2,LiMg14AlO16 -> 0.04545 LiO8 + 0.09091 Al11O18 + 14 MgO + 0.9545 Li,LiMg14AlO16,Al-Li-Mg-O,32,0.03,4.08,False
+mp-1020056,Monoclinic,C2/c,False,0.09,1.03,4 LiCa3Si2N5 -> 4 LiCa3Si2N5,4 LiCa3Si2N5 -> 5.5 CaSiN2 + 0.25 CaN6 + 1.25 Ca5(SiN3)2 + 4 Li,LiCa3Si2N5,Ca-Li-N-Si,44,0.0,2.44,True
+mp-1095674,Orthorhombic,Cmcm,True,0.0,2.96,2 Cs2LiBr3 -> 2 LiBr + 4 CsBr,2 Cs2LiBr3 -> CsBr3 + 3 CsBr + 2 Li,Cs2LiBr3,Br-Cs-Li,12,0.0,4.35,False
+mp-1176564,Monoclinic,P2_1/c,True,0.0,3.04,4 LiTmO2 -> 4 LiTmO2,4 LiTmO2 -> Li2O2 + 2 Tm2O3 + 2 Li,LiTmO2,Li-O-Tm,16,0.0,4.18,True
+mp-9610,Tetragonal,I4/mmm,False,0.0,2.06,Li2CN2 -> Li2CN2,Li2CN2 -> N2 + C + 2 Li,Li2CN2,C-Li-N,5,0.0,3.74,True
+mp-942733,Tetragonal,I4_1/acd,False,0.05,2.88,4 Li7La3Zr2O12 -> 4 Li6Zr2O7 + 2 Li2O + 6 La2O3,4 Li7La3Zr2O12 -> 4 Li6Zr2O7 + Li2O2 + 6 La2O3 + 2 Li,Li7La3Zr2O12,La-Li-O-Zr,96,0.01,4.45,False
+mp-1038204,Tetragonal,P4/mmm,True,0.17,3.48,LiMg30AlO32 -> 30 MgO + LiAlO2,LiMg30AlO32 -> 0.04545 LiO8 + 0.09091 Al11O18 + 30 MgO + 0.9545 Li,LiMg30AlO32,Al-Li-Mg-O,64,0.01,4.48,False
+mp-30156,Orthorhombic,Pnma,False,0.0,0.68,4 LiMgN -> 4 LiMgN,4 LiMgN -> 1.333 Mg3N2 + 0.4444 LiN3 + 3.556 Li,LiMgN,Li-Mg-N,12,0.0,2.21,False
+mp-756344,Orthorhombic,Cmcm,True,0.05,2.88,2 Li4ZrO4 -> Li2O + Li6Zr2O7,2 Li4ZrO4 -> Li6Zr2O7 + 0.5 Li2O2 + Li,Li4ZrO4,Li-O-Zr,18,0.04,4.32,False
+mp-558310,Hexagonal,P6_3cm,False,0.27,3.39,6 BaLi2SiO4 -> 6 BaLi2SiO4,6 BaLi2SiO4 -> 0.75 LiO8 + 6 BaSiO3 + 11.25 Li,BaLi2SiO4,Ba-Li-O-Si,48,0.0,4.39,True
+mp-34326,Monoclinic,C2/m,True,0.0,0.53,Li6Br3N -> Li5Br2N + LiBr,Li6Br3N -> 3 LiBr + 0.3333 LiN3 + 2.667 Li,Li6Br3N,Br-Li-N,10,0.03,2.22,False
+mp-571409,Monoclinic,C2/m,True,0.0,2.96,Cs2Li3Br5 -> 3 LiBr + 2 CsBr,Cs2Li3Br5 -> 1.5 CsBr3 + 0.5 CsBr + 3 Li,Cs2Li3Br5,Br-Cs-Li,10,0.01,4.44,False
+mp-1202424,Tetragonal,P-4b2,False,0.0,1.12,2 Li5La5(SiN3)4 -> 2 Li5La5(SiN3)4,2 Li5La5(SiN3)4 -> 1.714 La5(SiN3)3 + 0.4762 La3Si6N11 + 1.111 LiN3 + 8.889 Li,Li5La5(SiN3)4,La-Li-N-Si,52,0.0,2.52,True
+mp-1029592,Cubic,Ia-3,True,0.0,0.49,8 Li3YN2 -> 8 Li3YN2,8 Li3YN2 -> 8 YN + 2.667 LiN3 + 21.33 Li,Li3YN2,Li-N-Y,48,0.0,2.08,True
+mp-768960,Orthorhombic,Pbca,True,0.29,2.88,8 Li5BO4 -> 8 Li2O + 8 Li3BO3,8 Li5BO4 -> 4 Li2O2 + 8 Li3BO3 + 8 Li,Li5BO4,B-Li-O,80,0.05,5.46,False
+mp-1222669,Trigonal,P3m1,True,0.0,2.84,Li2IBr -> LiI + LiBr,Li2IBr -> I + LiBr + Li,Li2IBr,Br-I-Li,4,0.01,4.13,False
+mp-1035918,Orthorhombic,Pmmm,True,0.07,2.91,LiYMg14O16 -> LiYO2 + 14 MgO,LiYMg14O16 -> 0.25 Li2O2 + 0.5 Y2O3 + 14 MgO + 0.5 Li,LiYMg14O16,Li-Mg-O-Y,32,0.05,3.9,False
+mp-1190087,Orthorhombic,Cmc2_1,True,0.0,2.35,4 CsLiI2 -> 4 LiI + 4 CsI,4 CsLiI2 -> 2 CsI3 + 2 CsI + 4 Li,CsLiI2,Cs-I-Li,16,0.02,3.73,False
+mp-1214440,Cubic,Im-3m,True,0.16,0.78,Ba4Li(BN2)3 -> 1.333 Ba3(BN2)2 + 0.3333 Li3BN2,Ba4Li(BN2)3 -> 1.25 Ba3(BN2)2 + 0.25 BaN2 + 0.5 BN + Li,Ba4Li(BN2)3,B-Ba-Li-N,14,0.02,2.48,False
+mp-1035901,Tetragonal,P4/mmm,True,0.07,2.91,LiYMg14O16 -> LiYO2 + 14 MgO,LiYMg14O16 -> 0.25 Li2O2 + 0.5 Y2O3 + 14 MgO + 0.5 Li,LiYMg14O16,Li-Mg-O-Y,32,0.05,3.84,False
+mp-7020,Monoclinic,P2_1/c,False,0.0,2.91,4 LiYO2 -> 4 LiYO2,4 LiYO2 -> Li2O2 + 2 Y2O3 + 2 Li,LiYO2,Li-O-Y,16,0.0,4.01,True
+mp-755289,Orthorhombic,C222,True,0.07,3.2,Li3Y3ZrO8 -> 0.5 Li6Zr2O7 + 1.5 Y2O3,Li3Y3ZrO8 -> Li2ZrO3 + 0.25 Li2O2 + 1.5 Y2O3 + 0.5 Li,Li3Y3ZrO8,Li-O-Y-Zr,15,0.04,4.18,False
+mp-756544,Monoclinic,P2_1/c,True,0.0,2.88,4 LiLaO2 -> 2 Li2O + 2 La2O3,4 LiLaO2 -> Li2O2 + 2 La2O3 + 2 Li,LiLaO2,La-Li-O,16,0.01,3.63,False
+mp-1040140,Tetragonal,P4/mmm,True,0.07,2.88,LiLaMg30O32 -> 0.5 Li2O + 0.5 La2O3 + 30 MgO,LiLaMg30O32 -> 0.25 Li2O2 + 0.5 La2O3 + 30 MgO + 0.5 Li,LiLaMg30O32,La-Li-Mg-O,64,0.05,4.23,False
+mp-567219,Monoclinic,C2/m,False,0.0,0.79,Li4Ca3(SiN3)2 -> Li4Ca3(SiN3)2,Li4Ca3(SiN3)2 -> LiCa3Si2N5 + 0.3333 LiN3 + 2.667 Li,Li4Ca3(SiN3)2,Ca-Li-N-Si,15,0.0,2.29,True
+mp-10250,Cubic,Pm-3m,False,0.09,6.04,BaLiF3 -> LiF + BaF2,BaLiF3 -> BaF3 + Li,BaLiF3,Ba-F-Li,5,0.02,6.56,False
+mp-5418,Monoclinic,C2/c,False,0.05,3.2,2 Li6Zr2O7 -> 2 Li6Zr2O7,2 Li6Zr2O7 -> 4 Li2ZrO3 + Li2O2 + 2 Li,Li6Zr2O7,Li-O-Zr,30,0.0,3.84,True
+mp-1103949,Orthorhombic,Cmc2_1,True,0.0,2.35,2 Cs2LiI3 -> 2 LiI + 4 CsI,2 Cs2LiI3 -> CsI3 + 3 CsI + 2 Li,Cs2LiI3,Cs-I-Li,12,0.01,3.77,False
+mp-754204,Tetragonal,I4_1/amd,True,0.0,2.93,2 LiGdO2 -> 2 LiGdO2,2 LiGdO2 -> 0.5 Li2O2 + Gd2O3 + Li,LiGdO2,Gd-Li-O,8,0.04,2.88,False
+mp-1223097,Orthorhombic,Ima2,True,0.25,0.66,8 Li2HN -> 8 Li2HN,8 Li2HN -> 4 LiH2N + 1.333 LiN3 + 10.67 Li,Li2HN,H-Li-N,32,0.01,2.71,False
+mp-569238,Monoclinic,P2_1/m,True,0.0,2.35,2 Cs3LiI4 -> 2 LiI + 6 CsI,2 Cs3LiI4 -> CsI3 + 5 CsI + 2 Li,Cs3LiI4,Cs-I-Li,16,0.02,3.8,False
+mp-608311,Monoclinic,C2,True,0.0,2.35,Cs2Li3I5 -> 3 LiI + 2 CsI,Cs2Li3I5 -> 1.5 CsI3 + 0.5 CsI + 3 Li,Cs2Li3I5,Cs-I-Li,10,0.01,3.83,False
+mp-7800,Monoclinic,P2_1/c,False,0.0,2.88,4 LiSmO2 -> 2 Li2O + 2 Sm2O3,4 LiSmO2 -> Li2O2 + 2 Sm2O3 + 2 Li,LiSmO2,Li-O-Sm,16,0.01,3.37,False
+mp-1185301,Hexagonal,P6_3mc,True,0.0,6.33,2 LiF -> 2 LiF,2 LiF -> F2 + 2 Li,LiF,F-Li,4,0.02,7.48,False
+mp-5853,Orthorhombic,Cmc2_1,False,0.24,1.88,2 LiSi2N3 -> 2 LiSi2N3,2 LiSi2N3 -> 0.3333 N2 + 1.333 Si3N4 + 2 Li,LiSi2N3,Li-N-Si,12,0.0,5.01,True
+mp-1138,Cubic,Fm-3m,False,0.0,6.33,LiF -> LiF,LiF -> 0.5 F2 + Li,LiF,F-Li,2,0.0,8.72,True
+mp-1189725,Orthorhombic,Pnma,True,0.25,0.66,4 Li2HN -> 4 Li2HN,4 Li2HN -> 2 LiH2N + 0.6667 LiN3 + 5.333 Li,Li2HN,H-Li-N,16,0.0,2.08,True
+mp-28593,Cubic,Pm-3m,False,0.0,2.88,Li3BrO -> Li2O + LiBr,Li3BrO -> 0.5 Li2O2 + LiBr + Li,Li3BrO,Br-Li-O,5,0.04,4.28,False
+mp-7535,Orthorhombic,Pmmn,False,0.05,3.01,2 Li5AlO4 -> 2 Li5AlO4,2 Li5AlO4 -> 2 Li2O2 + 2 LiAlO2 + 4 Li,Li5AlO4,Al-Li-O,20,0.0,4.8,False
+mp-1194722,Monoclinic,P2_1/c,False,0.26,6.16,4 KLiTmF5 -> 4 KTmF4 + 4 LiF,4 KLiTmF5 -> 2 KF3 + 2 KTm2F7 + 4 Li,KLiTmF5,F-K-Li-Tm,32,0.0,7.38,False
+mp-29025,Orthorhombic,Immm,False,0.0,0.53,Li5Br2N -> Li5Br2N,Li5Br2N -> 2 LiBr + 0.3333 LiN3 + 2.667 Li,Li5Br2N,Br-Li-N,8,0.0,2.08,True
+mp-570935,Hexagonal,P6_3mc,False,0.0,2.84,2 LiI -> 2 LiI,2 LiI -> 2 I + 2 Li,LiI,I-Li,4,0.0,4.38,True
+mp-6499,Monoclinic,P2_1/c,False,0.26,3.6,4 BaLiBO3 -> 4 BaLiBO3,4 BaLiBO3 -> 2 Ba2B2O5 + 0.25 LiO8 + 3.75 Li,BaLiBO3,B-Ba-Li-O,24,0.0,4.13,True
+mp-10620,Monoclinic,P2_1/c,False,0.0,2.88,4 LiPrO2 -> 2 Li2O + 2 Pr2O3,4 LiPrO2 -> Li2O2 + 2 Pr2O3 + 2 Li,LiPrO2,Li-O-Pr,16,0.01,3.53,False
+mp-11737,Triclinic,P-1,False,0.26,3.36,2 Li4SiO4 -> 2 Li4SiO4,2 Li4SiO4 -> 2 Li2SiO3 + 0.25 LiO8 + 3.75 Li,Li4SiO4,Li-O-Si,18,0.0,4.78,True
+mp-10971,Tetragonal,I4_1/amd,False,0.0,2.99,2 LiErO2 -> 2 LiErO2,2 LiErO2 -> 0.5 Li2O2 + Er2O3 + Li,LiErO2,Er-Li-O,8,0.01,4.17,False
+mp-606680,Orthorhombic,Immm,True,0.0,2.96,CsLi2Br3 -> 2 LiBr + CsBr,CsLi2Br3 -> CsBr3 + 2 Li,CsLi2Br3,Br-Cs-Li,6,0.01,4.28,False
+mp-569085,Monoclinic,P2_1/c,False,0.0,0.53,2 Li6Br3N -> 2 Li5Br2N + 2 LiBr,2 Li6Br3N -> 6 LiBr + 0.6667 LiN3 + 5.333 Li,Li6Br3N,Br-Li-N,20,0.02,2.18,False
+mp-756648,Monoclinic,P2_1/c,True,0.0,2.88,4 LiNdO2 -> 2 Li2O + 2 Nd2O3,4 LiNdO2 -> Li2O2 + 2 Nd2O3 + 2 Li,LiNdO2,Li-Nd-O,16,0.01,3.86,False
+mp-570756,Monoclinic,Cm,True,0.0,4.3,Cs3Li2Cl5 -> 2 CsLiCl2 + CsCl,Cs3Li2Cl5 -> Cl2 + 3 CsCl + 2 Li,Cs3Li2Cl5,Cl-Cs-Li,10,0.03,5.09,False
+mp-28603,Orthorhombic,Pnma,False,0.28,1.85,4 NaLiSe -> 4 NaLiSe,4 NaLiSe -> 4 NaSe + 4 Li,NaLiSe,Li-Na-Se,12,0.0,2.44,True
+mp-1104857,Monoclinic,C2/m,False,0.01,0.64,Sr3Li4(SiN3)2 -> Sr3Li4(SiN3)2,Sr3Li4(SiN3)2 -> 2 SrSiN2 + SrN2 + 4 Li,Sr3Li4(SiN3)2,Li-N-Si-Sr,15,0.0,2.11,True
+mp-28243,Orthorhombic,Cmcm,False,0.0,4.27,2 RbLiCl2 -> 2 LiCl + 2 RbCl,2 RbLiCl2 -> Cl2 + 2 RbCl + 2 Li,RbLiCl2,Cl-Li-Rb,8,0.0,5.15,False
+mp-8754,Orthorhombic,Pnma,False,0.13,1.56,4 NaLiTe -> 4 NaLiTe,4 NaLiTe -> 1.6 Na2Te + 0.8 NaTe3 + 4 Li,NaLiTe,Li-Na-Te,12,0.0,2.28,True
+mp-1020627,Triclinic,P-1,False,0.14,0.77,4 SrLiAl3N4 -> 4 SrLiAl3N4,4 SrLiAl3N4 -> Sr3Al3N5 + SrN2 + 9 AlN + 4 Li,SrLiAl3N4,Al-Li-N-Sr,36,0.0,2.97,True
+mp-9250,Tetragonal,P4/nmm,False,0.24,1.68,2 RbLiSe -> 2 RbLiSe,2 RbLiSe -> 2 RbSe + 2 Li,RbLiSe,Li-Rb-Se,6,0.0,2.31,True
+mp-1020592,Tetragonal,P4/mnc,False,0.01,1.22,2 Sr4Li2Si4N8O -> 2 Sr4Li2Si4N8O,2 Sr4Li2Si4N8O -> 6.773 SrSiN2 + 0.2273 SrN6 + 0.5 Sr2SiO4 + 0.3636 LiSi2N3 + 3.636 Li,Sr4Li2Si4N8O,Li-N-O-Si-Sr,38,0.0,2.18,True
+mp-753769,Monoclinic,Pm,True,0.02,2.86,Sr3Li3La5O12 -> 1.5 Li2O + 3 SrO + 2.5 La2O3,Sr3Li3La5O12 -> 1.5 SrO + 1.5 SrO2 + 2.5 La2O3 + 3 Li,Sr3Li3La5O12,La-Li-O-Sr,23,0.04,2.98,False
+mp-761869,Monoclinic,Pm,True,0.02,2.86,3 Sr3Li3La5O12 -> 4.5 Li2O + 9 SrO + 7.5 La2O3,3 Sr3Li3La5O12 -> 4.5 SrO + 4.5 SrO2 + 7.5 La2O3 + 9 Li,Sr3Li3La5O12,La-Li-O-Sr,69,0.04,3.02,False
+mp-28237,Orthorhombic,Cmcm,False,0.0,3.67,2 RbLiBr2 -> 2 LiBr + 2 RbBr,2 RbLiBr2 -> RbBr3 + RbBr + 2 Li,RbLiBr2,Br-Li-Rb,8,0.0,4.32,False
+mp-9723,Cubic,Im-3m,False,0.0,1.39,Sr4Li(BN2)3 -> Sr4Li(BN2)3,Sr4Li(BN2)3 -> 0.0625 SrN6 + 1.313 Sr3(BN2)2 + 0.375 BN + Li,Sr4Li(BN2)3,B-Li-N-Sr,14,0.0,2.07,True
+mp-569782,Cubic,Fd-3m,False,0.0,2.14,4 Sr2LiCBr3N2 -> 4 Sr2LiCBr3N2,4 Sr2LiCBr3N2 -> 2 SrCN2 + 6 SrBr2 + 2 N2 + 2 C + 4 Li,Sr2LiCBr3N2,Br-C-Li-N-Sr,36,0.0,3.97,True
+mp-1191141,Trigonal,P3_121,False,0.24,3.46,3 SrLi2SiO4 -> 3 SrLi2SiO4,3 SrLi2SiO4 -> 0.375 LiO8 + 3 SrSiO3 + 5.625 Li,SrLi2SiO4,Li-O-Si-Sr,24,0.0,4.64,True
+mp-1037661,Tetragonal,P4/mmm,True,0.07,2.91,LiYMg30O32 -> LiYO2 + 30 MgO,LiYMg30O32 -> 0.25 Li2O2 + 0.5 Y2O3 + 30 MgO + 0.5 Li,LiYMg30O32,Li-Mg-O-Y,64,0.02,4.31,False
+mp-1037656,Tetragonal,P4/mmm,True,0.07,2.91,LiYMg30O32 -> LiYO2 + 30 MgO,LiYMg30O32 -> 0.25 Li2O2 + 0.5 Y2O3 + 30 MgO + 0.5 Li,LiYMg30O32,Li-Mg-O-Y,64,0.02,4.34,False
+mp-567371,Monoclinic,C2/m,False,0.26,0.74,Sr3Li4(GeN3)2 -> Sr3Li4(GeN3)2,Sr3Li4(GeN3)2 -> SrN2 + 2 SrGeN2 + 4 Li,Sr3Li4(GeN3)2,Ge-Li-N-Sr,15,0.0,2.05,True
+mp-5840,Tetragonal,I4_1/amd,False,0.0,3.43,2 LiScO2 -> 2 LiScO2,2 LiScO2 -> Sc2O3 + 0.125 LiO8 + 1.875 Li,LiScO2,Li-O-Sc,8,0.0,3.9,True
