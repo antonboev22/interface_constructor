@@ -1,0 +1,8 @@
+,substrate,material_id,film,hkl_sub,hkl_film,misfit_x,misfit_y,misfit_x_sub,misfit_y_sub,von_mises,termination,n_at,slab,substrate_density,film_density,substrate_charge_density,film_charge_density,abs_charge_density
+0,Li8ZrO6,mp-755225,Li,"(1, 1, 1)","(1, 1, 0)",3.1,1.0,0.8,4.0,0.017,"('Li_Cmmm_1', 'Li_R3_3')",150,Li8ZrO6_Li_111_110_150at_Li_Cmmm_1_Li_R3_3,0.233,0.129,-0.117,0.129,0.129
+1,Li8ZrO6,mp-755225,Li,"(1, 1, 1)","(1, 1, 1)",1.0,1.0,0.8,2.0,0.019,"('Li_R-3m_1', 'Li_R3_3')",146,Li8ZrO6_Li_111_111_146at_Li_R-3m_1_Li_R3_3,0.233,0.052,-0.117,0.052,0.052
+2,Li3GaN2,mp-3887,Li,"(1, 1, 0)","(1, 1, 0)",3.0,4.0,2.0,0.0,0.022,"('Li_Cmmm_1', 'Li2N_P-1_12')",174,Li3GaN2_Li_110_110_174at_Li_Cmmm_1_Li2N_P-1_12,0.107,0.116,-0.036,0.116,0.116
+3,LiH,mp-23703,Li,"(1, 1, 0)","(1, 0, 0)",2.0,2.0,4.6,12.0,0.005,"('Li_P4/mmm_1', 'LiH_P4/mmm_2')",160,LiH_Li_110_100_160at_Li_P4mmm_1_LiH_P4mmm_2,0.248,0.083,0.0,0.083,0.083
+4,Li2Te,mp-2530,Li,"(0, 0, 1)","(1, 1, 0)",3.0,4.0,2.0,5.0,0.012,"('Li_Cmmm_1', 'Te_R-3m_1')",78,Li2Te_Li_001_110_78at_Li_Cmmm_1_Te_R-3m_1,0.054,0.122,-0.109,0.122,0.122
+5,Li2Te,mp-2530,Li,"(1, 1, 1)","(1, 1, 0)",3.0,4.0,2.0,5.0,0.012,"('Li_Cmmm_1', 'Te_R-3m_1')",78,Li2Te_Li_111_110_78at_Li_Cmmm_1_Te_R-3m_1,0.054,0.122,-0.109,0.122,0.122
+6,LiI,mp-570935,Li,"(0, 0, 1)","(1, 1, 0)",3.0,4.0,2.0,5.0,0.017,"('Li_Cmmm_1', 'I_P6/mmm_1')",64,LiI_Li_001_110_64at_Li_Cmmm_1_I_P6mmm_1,0.056,0.112,-0.056,0.112,0.112
