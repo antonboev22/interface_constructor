@@ -1,0 +1,4 @@
+,substrate,material_id,film,hkl_sub,hkl_film,misfit_x,misfit_y,misfit_x_sub,misfit_y_sub,von_mises,termination,n_at,slab,substrate_density,film_density,substrate_charge_density,film_charge_density,abs_charge_density
+0,Li2HN,mp-1189725,Li,"(0, 0, 1)","(1, 0, 0)",0.4,5.0,3.0,0.0,0.014,"('Li_P4/mmm_1', 'LiH_Pm_2')",88,Li2HN_Li_001_100_88at_Li_P4mmm_1_LiH_Pm_2,0.169,0.085,-0.056,0.085,0.085
+1,Li2HN,mp-1189725,Li,"(0, 0, 1)","(1, 0, 0)",0.4,5.0,3.0,0.0,0.014,"('Li_P4/mmm_1', 'N2_Pmmm_1')",88,Li2HN_Li_001_100_88at_Li_P4mmm_1_N2_Pmmm_1,0.169,0.085,-0.056,0.085,0.085
+2,Li2HN,mp-1189725,Li,"(0, 0, 1)","(1, 0, 0)",0.4,5.0,3.0,0.0,0.014,"('Li_P4/mmm_1', 'Li_Pmmm_1')",88,Li2HN_Li_001_100_88at_Li_P4mmm_1_Li_Pmmm_1,0.169,0.085,-0.056,0.085,0.085
