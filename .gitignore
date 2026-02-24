@@ -1,0 +1,26 @@
+.ipynb_checkpoints
+
+tests/
+
+# Sublime files
+*.sublime*
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+**/.DS_Store
+**/**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
