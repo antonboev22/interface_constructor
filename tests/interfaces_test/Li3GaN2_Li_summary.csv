@@ -1,2 +1,0 @@
-substrate,film,hkl_sub,hkl_film,termination,num_sites,substrate_density,film_density,substrate_charge_density,film_charge_density,abs_charge_density,von_mises,slab
-Li3GaN2,Li,"(1, 0, 0)","(1, 0, 0)","('Li_P4/mmm_1', 'N2_Pcca_8')",128,0.0855,0.0855,-0.2564,0.0855,0.1709,0.0036,Li3GaN2_Li_100_100_Li_P4_mmm_1_N2_Pcca_8_128at
