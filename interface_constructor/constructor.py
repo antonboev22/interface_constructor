@@ -12,7 +12,7 @@ from .builder import build_interfaces
 
 
 
-def get_logger(name="InterfaceConstructor", level=logging.INFO):
+def get_logger(name="InterfaceConstructor", level=logging.DEBUG):
     logger = logging.getLogger(name)
     if not logger.handlers:
         ch = logging.StreamHandler()

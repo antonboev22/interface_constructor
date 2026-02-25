@@ -108,17 +108,22 @@ def _process_match(args):
     # ========================================================
 
     for termination in cib.terminations:
-
-        # --- EARLY SIZE REJECT (BIG SPEEDUP) ---
-        est_sites = _estimate_interface_sites(
-            match_record, substrate_bulk, film_bulk, config
-        )
-
-        if est_sites > config.num_sites_limit * 1.3:
-            logger.debug(
-                f"Skip large match early: est {est_sites} atoms"
+        logger.info(
+            f"\tTermination: {termination} ... "
             )
-            continue
+        print(f"\tTermination: {termination} ... ")
+
+        # # --- EARLY SIZE REJECT (BIG SPEEDUP) ---
+        # est_sites = _estimate_interface_sites(
+        #     match_record, substrate_bulk, film_bulk, config
+        # )
+        # logger.info('est_sites ', est_sites)
+
+        # if est_sites > config.num_sites_limit * 1.3:
+        #     logger.warning(
+        #         f"Skip large match early: est {est_sites} atoms"
+        #     )
+        #     continue
 
         # собираем все интерфейсы для этой терминации
         term_interfaces = [
@@ -176,8 +181,13 @@ def _process_match(args):
                 filtered_interfaces.append(
                     (interface, sub_density, film_density, sub_charge, film_charge, total_charge)
                 )
+                print(
+                f"\tok"
+                )
             else:
-                logger.warning(f"Density or charge condition has not passed")
+                print(
+                f"\tDensity or charge condition has not passed "
+                )
 
 
         if not filtered_interfaces:
