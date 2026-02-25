@@ -8,16 +8,16 @@ from collections import Counter
 
 def log_matches_compact(matches, logger=None):
     """
-    Логирование повторяющихся hkl(sub/film) с подсчетом повторов.
-    matches: список dict с ключами 'hkl_sub', 'hkl_film', 'von_mises'
+    Log repeated hkl(sub/film) pairs with occurrence counting.
+    matches: list of dicts with keys 'hkl_sub', 'hkl_film', 'von_mises'
     """
-    # Собираем кортежи (hkl_sub, hkl_film, von_mises) для подсчета
+    # Build tuples (hkl_sub, hkl_film, von_mises) for counting
     counter = Counter(
         (tuple(m['hkl_sub']), tuple(m['hkl_film']), round(m['von_mises'], 4))
         for m in matches
     )
 
-    # Выводим компактно
+    # Print in compact form
     for (hkl_sub, hkl_film, von), count in counter.items():
         msg = f"hkl(sub/film) = {hkl_sub}/{hkl_film} | von Mises = {von*100:.1f}%"
         if count > 1:
@@ -28,15 +28,13 @@ def log_matches_compact(matches, logger=None):
             print(msg)
 
 
-
 def generate_millers(max_index: int):
-    """Generate Miller indices up to a given max index."""
+    """Generate Miller indices up to a given maximum index."""
     return [
         (h, k, l)
         for h, k, l in itertools.product(range(max_index + 1), repeat=3)
         if (h, k, l) != (0, 0, 0)
     ]
-
 
 
 def _deduplicate_matches(matches, strain_tol=1e-4):
@@ -81,7 +79,6 @@ def _deduplicate_matches(matches, strain_tol=1e-4):
     return unique
 
 
-
 def find_matches(
     substrate,
     film,
@@ -95,15 +92,28 @@ def find_matches(
 
     analyzer = SubstrateAnalyzer(
         film_max_miller=config.max_film_miller,
-        bidirectional=False, max_area_ratio_tol=0.09, max_area=400, max_length_tol=0.03, max_angle_tol=0.01
+        bidirectional=False,
+        max_area_ratio_tol=0.09,
+        max_area=400,
+        max_length_tol=0.03,
+        max_angle_tol=0.01,
     )
 
     results_all = []
     results_filtered = []
 
-    # -------- define miller sets depending on mode -------- #
-    sub_millers = generate_millers(config.max_sub_miller) if config.sub_miller is None else [config.sub_miller]
-    film_millers_allowed = generate_millers(config.max_film_miller) if config.film_miller is None else [config.film_miller]
+    # -------- define Miller sets depending on the mode -------- #
+    sub_millers = (
+        generate_millers(config.max_sub_miller)
+        if config.sub_miller is None
+        else [config.sub_miller]
+    )
+
+    film_millers_allowed = (
+        generate_millers(config.max_film_miller)
+        if config.film_miller is None
+        else [config.film_miller]
+    )
 
     mode_sub = "auto" if config.sub_miller is None else "fixed"
     mode_film = "auto" if config.film_miller is None else "fixed"
@@ -124,7 +134,7 @@ def find_matches(
             if film_hkl not in film_millers_allowed:
                 continue
 
-            # ---------------- corrected misfit ---------------- #
+            # ---------------- corrected misfit (optional) ---------------- #
             # misfit_fx, misfit_fy, (nx, ny), (mx, my) = compute_misfit_optimal(
             #     match, substrate, film, max_supercell=10
             # )
@@ -138,6 +148,7 @@ def find_matches(
                 "von_mises": round(match.von_mises_strain, 4),
                 "match_obj": match,
             }
+
             von_mises = match.von_mises_strain
             results_all.append(record)
 
@@ -146,17 +157,19 @@ def find_matches(
             else:
                 continue
 
+            # Verbose logging (optional)
             # if logger:
             #     logger.info(
             #         f"hkl(sub/film) = {sub_hkl}/{film_hkl} | "
             #         f"von Mises = {von_mises*100:.1f}% "
-            #         )
+            #     )
 
     if logger:
         logger.info("=== Compact match summary ===")
     log_matches_compact(results_filtered, logger=logger)
+
     # ============================================================
-    # DEDUPLICATION (очень важно!)
+    # DEDUPLICATION (very important!)
     # ============================================================
 
     before_all = len(results_all)

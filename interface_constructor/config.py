@@ -17,8 +17,8 @@ class InterfaceConfig:
 
     # interface construction
     num_sites_limit: int = 300
-    density_limit: float = 0.01
-    charge_limit: float = 0.2
+    density_limit: float = 0.5
+    charge_limit: float = 0.5
 
     gap: float = 2.0
     vacuum_over_film: float = 15.0

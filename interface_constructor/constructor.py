@@ -22,7 +22,7 @@ def get_logger(name="InterfaceConstructor", level=logging.DEBUG):
 
 
 class InterfaceConstructor:
-    """High-level API for interface construction."""
+    """High-level API for automated interface construction."""
 
     @staticmethod
     def _get_logger(name="InterfaceConstructor", level=logging.INFO):
@@ -60,29 +60,33 @@ class InterfaceConstructor:
             logger=self.logger,
         )
         self.logger.info(
-            f"✅ Matching done: {len(self.matches['all'])} total matches, "
-            f"{len(self.matches['filtered'])} passed von Mises filter"
+            f"✅ Matching completed: {len(self.matches['all'])} total matches, "
+            f"{len(self.matches['filtered'])} passed the von Mises filter"
         )
         return self.matches
 
     def build_all_interfaces(self, output_dir: str = "interfaces"):
-        """Build all interfaces for filtered matches with detailed logging."""
+        """Build interfaces for all filtered matches with detailed logging."""
         if not self.matches or not self.matches["filtered"]:
             raise RuntimeError("No matches found. Run `run_matching()` first.")
 
         self.logger.info(
-            f"Building filtered interfaces using filtering criteria:\n"
+            f"Building filtered interfaces using the following criteria:\n"
             f"  - Surface density limit: {self.config.density_limit}\n"
             f"  - Max total charge: {self.config.charge_limit}\n"
             f"  - Max num_sites: {self.config.num_sites_limit}\n"
-            f"  - Layer thickness: {self.config.surface_thickness}\n"
-            f"  - Film thickness: {self.config.film_thickness}, Substrate thickness: {self.config.substrate_thickness}\n"
-            f"  - Gap: {self.config.gap}, Vacuum above film: {self.config.vacuum_over_film}\n\n\n"
+            f"  - Surface thickness: {self.config.surface_thickness}\n"
+            f"  - Film thickness: {self.config.film_thickness}, "
+            f"Substrate thickness: {self.config.substrate_thickness}\n"
+            f"  - Gap: {self.config.gap}, Vacuum above film: {self.config.vacuum_over_film}\n\n"
         )
 
         for idx, match in enumerate(self.matches["filtered"], start=1):
-            self.logger.info(f"=== Match {idx}/{len(self.matches['filtered'])}: "
-                             f"{match['hkl_sub']}/{match['hkl_film']} | von Mises={match['von_mises']*100:.2f}% ===")
+            self.logger.info(
+                f"=== Match {idx}/{len(self.matches['filtered'])}: "
+                f"{match['hkl_sub']}/{match['hkl_film']} | "
+                f"von Mises={match['von_mises']*100:.2f}% ==="
+            )
 
             results, interfaces = build_interfaces(
                 substrate_bulk=self.substrate,
@@ -90,31 +94,35 @@ class InterfaceConstructor:
                 match_record=match,
                 config=self.config,
                 output_dir=output_dir,
-                logger=self.logger
+                logger=self.logger,
             )
 
-            # Пошаговый вывод для каждого интерфейса
+            # Per-interface detailed logging
             for j, r in enumerate(results, start=1):
                 status = "✅ accepted" if r["passed_filters"] else "❌ rejected"
                 self.logger.info(
                     f"\tInterface {j}: {r['slab']}\n"
                     f"\t\t\t\tnum_sites = {r['num_sites']}, "
                     f"density = {r['substrate_density']:.2f}/{r['film_density']:.2f} (s/f), "
-                    # f"film_density = {r['film_density']:.2f}\n"
-                    # f"\t\tsub_charge = {r['substrate_charge_density']:.2f}, "
-                    # f"film_charge = {r['film_charge_density']:.2f}, "
                     f"total_charge = {r['abs_charge_density']:.2f} → {status}\n"
                 )
 
-            # Сводка по матчу
+            # Match summary
             accepted_count = sum(r["passed_filters"] for r in results)
-            self.logger.info(f"\n\n  → Match {idx} summary: {accepted_count}/{len(results)} interfaces accepted\n--------------\n")
+            self.logger.info(
+                f"\n\n  → Match {idx} summary: "
+                f"{accepted_count}/{len(results)} interfaces accepted\n"
+                f"--------------\n"
+            )
 
             self.interfaces_metadata.extend(results)
             self.interfaces_structures.extend(interfaces)
 
-        self.logger.info(f"🏁 Total accepted interfaces: {len(self.interfaces_structures)}")
+        self.logger.info(
+            f"🏁 Total accepted interfaces: {len(self.interfaces_structures)}"
+        )
         return self.interfaces_metadata, self.interfaces_structures
 
     def save_summary_csv(self, output_dir: str = "interfaces"):
+        """Save CSV summary of all generated interfaces."""
         save_csv(self.interfaces_metadata, self.substrate, self.film, output_dir)

@@ -1,0 +1,7 @@
+substrate,film,hkl_sub,hkl_film,termination,num_sites,substrate_density,film_density,substrate_charge_density,film_charge_density,abs_charge_density,von_mises,slab,passed_filters
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 0)","('Li_Cmmm_1', 'LiCoO2_P2/m_4')",96,0.2514,0.1257,0.0,0.1257,0.1257,0.0037,LiCoO2_Li_104_110_Li_Cmmm_1_LiCoO2_P2_m_4_96at,False
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 0)","('Li_Cmmm_1', 'LiCoO2_P2/m_4')",96,0.2514,0.1257,0.0,0.1257,0.1257,0.007,LiCoO2_Li_104_110_Li_Cmmm_1_LiCoO2_P2_m_4_96at,False
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 0)","('Li_Cmmm_1', 'LiCoO2_P2/m_4')",96,0.2514,0.1257,0.0,0.1257,0.1257,0.0139,LiCoO2_Li_104_110_Li_Cmmm_1_LiCoO2_P2_m_4_96at,False
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 0)","('Li_Cmmm_1', 'LiCoO2_P2/m_4')",96,0.2514,0.1257,0.0,0.1257,0.1257,0.0131,LiCoO2_Li_104_110_Li_Cmmm_1_LiCoO2_P2_m_4_96at,False
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 1)","('Li_R-3m_1', 'LiCoO2_P2/m_4')",150,0.2514,0.0489,0.0,0.0489,0.0489,0.0022,LiCoO2_Li_104_111_Li_R_3m_1_LiCoO2_P2_m_4_150at,False
+LiCoO2,Li,"(1, 0, 4)","(1, 1, 1)","('Li_R-3m_1', 'LiCoO2_P2/m_4')",150,0.2514,0.0489,0.0,0.0489,0.0489,0.0068,LiCoO2_Li_104_111_Li_R_3m_1_LiCoO2_P2_m_4_150at,False
