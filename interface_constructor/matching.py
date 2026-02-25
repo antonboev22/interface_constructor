@@ -4,7 +4,28 @@ from typing import List, Tuple, Dict, Any, Optional
 
 from pymatgen.analysis.interfaces.substrate_analyzer import SubstrateAnalyzer
 
+from collections import Counter
 
+def log_matches_compact(matches, logger=None):
+    """
+    Логирование повторяющихся hkl(sub/film) с подсчетом повторов.
+    matches: список dict с ключами 'hkl_sub', 'hkl_film', 'von_mises'
+    """
+    # Собираем кортежи (hkl_sub, hkl_film, von_mises) для подсчета
+    counter = Counter(
+        (tuple(m['hkl_sub']), tuple(m['hkl_film']), round(m['von_mises'], 4))
+        for m in matches
+    )
+
+    # Выводим компактно
+    for (hkl_sub, hkl_film, von), count in counter.items():
+        msg = f"hkl(sub/film) = {hkl_sub}/{hkl_film} | von Mises = {von*100:.1f}%"
+        if count > 1:
+            msg += f" × {count}"
+        if logger:
+            logger.info(msg)
+        else:
+            print(msg)
 
 
 
@@ -125,12 +146,15 @@ def find_matches(
             else:
                 continue
 
-            if logger:
-                logger.info(
-                    f"hkl(sub/film) = {sub_hkl}/{film_hkl} | "
-                    f"von Mises = {von_mises*100:.1f}% "
-                    )
+            # if logger:
+            #     logger.info(
+            #         f"hkl(sub/film) = {sub_hkl}/{film_hkl} | "
+            #         f"von Mises = {von_mises*100:.1f}% "
+            #         )
 
+    if logger:
+        logger.info("=== Compact match summary ===")
+    log_matches_compact(results_filtered, logger=logger)
     # ============================================================
     # DEDUPLICATION (очень важно!)
     # ============================================================
@@ -152,4 +176,3 @@ def find_matches(
         "all": results_all,
         "filtered": results_filtered,
     }
-

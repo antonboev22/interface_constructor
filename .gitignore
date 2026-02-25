@@ -1,26 +1,21 @@
-.ipynb_checkpoints*
-
-tests/
-
-# Sublime files
-*.sublime*
-
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 
+# Jupyter
+.ipynb_checkpoints/
 
+# Tests folder (если не хотите коммитить)
+tests/
 
-# OS generated files #
-######################
+# Sublime
+*.sublime*
+
+# OS generated files
 .DS_Store
-.DS_Store?
 **/.DS_Store
-**/**/.DS_Store
+Thumbs.db
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db
-
