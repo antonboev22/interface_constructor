@@ -123,8 +123,8 @@ def _process_match(substrate_bulk, film_bulk, match_record, config, output_dir: 
             total_charge = abs(sub_charge + film_charge)
 
             passed = (
-                sub_density > config.density_limit
-                and film_density > config.density_limit
+                sub_density < config.density_limit
+                and film_density < config.density_limit
                 and total_charge < config.charge_limit
             )
 

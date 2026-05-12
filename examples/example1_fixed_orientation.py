@@ -33,7 +33,7 @@ film.add_oxidation_state_by_element({
 # -------------------------------
 config = InterfaceConfig(
     # Miller indices control
-    sub_miller=(1, 0, 4),     # fixed substrate Miller index (optional)
+    sub_miller=(0,0,1),     # fixed substrate Miller index (optional)
     # film_miller=(1, 1, 1),   # fixed film Miller index (optional)
 
     # max_sub_miller=1,         # used if sub_miller=None

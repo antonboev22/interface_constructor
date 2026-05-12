@@ -97,6 +97,13 @@ class InterfaceConstructor:
                 logger=self.logger,
             )
 
+            # Match summary
+            accepted_count = sum(r["passed_filters"] for r in results)
+            self.logger.info(
+                f"\n\n  → Match {idx} summary: "
+                f"{accepted_count}/{len(results)} interfaces accepted\n"
+                f"--------------\n"
+            )
             # Per-interface detailed logging
             for j, r in enumerate(results, start=1):
                 status = "✅ accepted" if r["passed_filters"] else "❌ rejected"
@@ -107,13 +114,6 @@ class InterfaceConstructor:
                     f"total_charge = {r['abs_charge_density']:.2f} → {status}\n"
                 )
 
-            # Match summary
-            accepted_count = sum(r["passed_filters"] for r in results)
-            self.logger.info(
-                f"\n\n  → Match {idx} summary: "
-                f"{accepted_count}/{len(results)} interfaces accepted\n"
-                f"--------------\n"
-            )
 
             self.interfaces_metadata.extend(results)
             self.interfaces_structures.extend(interfaces)
